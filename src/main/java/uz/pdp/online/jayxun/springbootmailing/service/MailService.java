@@ -16,10 +16,10 @@ public class MailService {
     public void sendSimpleMail(SendMailDto sendMailDto) {
 
         SimpleMailMessage message = new SimpleMailMessage();
-        message.setTo(sendMailDto.);
-        message.setSubject(subject);
-        message.setText(content);
-//        message.setFrom("");
+        message.setTo(sendMailDto.getTo());
+        message.setSubject(sendMailDto.getSubject());
+        message.setText(sendMailDto.getContent());
+
         mailSender.send(message);
 
 

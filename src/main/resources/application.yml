@@ -1,11 +1,11 @@
 spring:
   mail:
-    host: sandbox.smtp.mailtrap.io
-    port: 2525
+    host: smtp.gmail.com
+    port: 465
     ssl: no
     tls: yes
-    username: 95a758ba3181ca
-    password: 48e3e21d3935be
+    username: muxammedovjayxun@gmail.com
+    password: glhg mbuo lybj egno
     properties:
       mail:
         smtp:
